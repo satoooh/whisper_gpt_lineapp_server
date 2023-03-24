@@ -4,7 +4,7 @@ LINE 上で音声を文字起こしし、GPT-3.5-turbo によって整形され�
 
 ↓のツイートを見て LINE でサクッと出来たら便利だなと思ったのがきっかけで作りました。
 
-> Twitter: [@kensuu https://twitter.com/kensuu/status/1638911266931761152]
+> [@kensuu](https://twitter.com/kensuu/status/1638911266931761152)
 > 1: 超おもしろい記事を頭の中で書く
 > 2: それをそのまま言葉で話す
 > 3:音声入力でテキストにする
