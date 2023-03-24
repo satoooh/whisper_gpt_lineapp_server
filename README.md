@@ -2,6 +2,18 @@
 
 LINE 上で音声を文字起こしし、GPT-3.5-turbo によって整形された文章を返信する LINE Bot の FastAPI サーバー側のソースコード
 
+↓のツイートを見て LINE でサクッと出来たら便利だなと思ったのがきっかけで作りました。
+
+> Twitter: [@kensuu https://twitter.com/kensuu/status/1638911266931761152]
+> 1: 超おもしろい記事を頭の中で書く
+> 2: それをそのまま言葉で話す
+> 3:音声入力でテキストにする
+> 4:ChatGPTで整形してもらう
+> 5:noteに貼る
+> 6:細かいところを修正
+>
+> ブログ書くのがめちゃくちゃ楽になってしまった。文章書くのが苦手な人でも、これならブログを毎日書けたりするのでは！
+
 ## 機能
 
 - OpenAI Whisper API による音声メッセージの文字起こし
@@ -9,7 +21,7 @@ LINE 上で音声を文字起こしし、GPT-3.5-turbo によって整形され�
 
 ## セットアップ
 
-### 必要な API キー
+### 環境変数の取得
 
 1. [LINE Developers](https://developers.line.biz/ja/) で LINE Messaging API のチャンネルを作成し、チャンルアクセストークンとチャネルシークレットを取得
 2. [OpenAI](https://platform.openai.com/signup/) でアカウントを作成し、API キーを取得
